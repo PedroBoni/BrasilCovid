@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Regular.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    justify-content: center;
+}
+header img{
+    max-width: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+header h1{
+    text-align: center;
+}
+.infoBrazil{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    justify-content: center;
+}
+.infoBrazil h1{
+    text-align: center;
+    font-size: 4vh;
+}
+.infoBrazil h1:nth-child(1){
+    color: #D92A2A;
+}
+.infoBrazil h1:nth-child(2){
+    color:#484343;
+    margin-top: 3px;
+}
+.infoBrazil h1:nth-child(3){
+    color:#0EB500;
+    margin-top: 3px;
+}
+.infoGeneral{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 700px;
+}
+.listInfoStades{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 550px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    align-self: flex-start;
+}
+.tableScroll table{
+    text-align: center;
+}
+.tableScroll table tr td{
+    padding:  0 30px;
+    border-left: 1px solid #CDCDCD;
+}
+.tableScroll table tr td:nth-child(1){
+    padding:  0 5px;
+    border-left: 0;
+}
+.tableScroll table tr th:nth-child(1){
+    padding:  0 15px;
+    border-left: 0;
+}
+.tableScroll table tr th:nth-child(4){
+    color: #D92A2A;
+}
+.tableScroll table tr th:nth-child(5){
+    color: #D92A2A;
+}
+.tableScroll table tr td:first{
+    border-left:0;
+}
+.tableScroll table tr th{
+    padding:  0 5px;
+    border-left: 1px solid #CDCDCD;
+}
+.tableScroll{
+    overflow: scroll;
+    width: 100%;
+    height: 250px;
+}
+.tableScroll::-webkit-scrollbar {
+    width: 4px;
+  }
+.tableScroll::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.tableScroll::-webkit-scrollbar-thumb {
+    background: #CDCDCD; 
+}
+.tableScroll::-webkit-scrollbar-thumb:hover {
+    background: #CDCDCD; 
+}
+.tableScroll::-webkit-scrollbar:horizontal {
+    display: none;  
+}
+.mostInfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    max-width: 150px;
+}
+.taxaDeaths{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+    line-height: 20px;
+}
+.taxaDeaths text{
+    color: #D92A2A;
+    margin-bottom: 3px;
+}
+.Dolar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+    line-height: 20px;
+}
+.Dolar p:nth-child(2){
+    margin-top: 3px;
+}
+.Update{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    text-align: center;
+    line-height: 20px;
+}
+.Update p:nth-child(1){
+    margin-bottom: 5px;
+}
+
