@@ -21,7 +21,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/PedroBoni/Brasil-Covid-19/brasilcovid/build",
   "eslintConfig": {
     "extends": "react-app"
   },
