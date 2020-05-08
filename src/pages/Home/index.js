@@ -18,7 +18,6 @@ function Home() {
         setData(res.data.data)
     })
     apiDolar.get('/').then(res=>{
-        console.log(res.data.USD)
         setDataDolar(res.data.USD)
     })
   }, []);

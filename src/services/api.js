@@ -1,6 +1,6 @@
 import axios from 'axios';
 const api = axios.create({
-    baseURL: process.env.REACT_API_URL,
+    baseURL: "https://covid19-brazil-api.now.sh/api/report/v1" ,
 })
 
 export default api
